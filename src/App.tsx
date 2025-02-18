@@ -1,17 +1,18 @@
 import "./App.css";
+import BienvenueAventurier from "./exercices/Exercice1/Component.tsx";
 import Exercice1 from "./exercices/Exercice1/Component.tsx";
+import Exercice2 from "./exercices/Exercice2/Component.tsx";
 
 
 function App() {
   return (
     <div className="container p-5 mb-4 bg-body-tertiary rounded-3">
-      <Exercice1 />
+      <Exercice1
+          titre="Boutique d'Archibald le Sorcier ‍♂️"
+          texte="Bienvenue Aventurier, ici vous pouvez acheter divers objets et potionsns magiques pour vos aventures !"
+      />
 
-
-      <section id="exercice2">
-        <h2>Si je ne suis pas là, faites sonner la cloche !</h2>
-        <button className="btn btn-primary">🛎️ Appeler Archibald</button>
-      </section>
+      <Exercice2 />
 
       <h1 className="my-5">Voici quelques objets de ma boutique :</h1>
 
