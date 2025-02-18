@@ -21,15 +21,15 @@ Egalement cela te fais pratiquer GIT, à apprendre -un peu- à faire des commits
 
 - Avoir un dossier `exercices`
 - Dans ce dossier, avoir un sous-dossier par exercice nommé "Exercice1", "Exercice2", etc.
-- Dans chaque sous-dossier d'exercice, avoir un fichier `Component.tsx` qui sera le composant principal, contenant le template JSX et d'autres composants selon l'exercice.
+- Dans chaque sous-dossier d'exercice, avoir un fichier `Bienvenue.tsx` qui sera le composant principal, contenant le template JSX et d'autres composants selon l'exercice.
 
 **Instructions** :
 
 - Créé un dossier `exercices` dans le dossier `src`
 - Pour chaque exercice :
   - Créé un dossier `Exercice<NumeroExercice>` dans le dossier `exercices` (`<NumeroExercice>` est à remplacer par le numéro de l'exercice)
-  - Créé un fichier `Component.tsx` dans le dossier `Exercice<NumeroExercice>`
-  - Modifie le contenu du fichier `Component.tsx` avec le template de l'exercice correspondant dans `App.tsx`
+  - Créé un fichier `Bienvenue.tsx` dans le dossier `Exercice<NumeroExercice>`
+  - Modifie le contenu du fichier `Bienvenue.tsx` avec le template de l'exercice correspondant dans `App.tsx`
     - Chaque exercice est représenté par une balise `<section id="exercice<NumeroExercice>">` dans `App.tsx`
   - Exporte ton composant
   - Importe le dans `App.tsx`
@@ -38,8 +38,8 @@ Egalement cela te fais pratiquer GIT, à apprendre -un peu- à faire des commits
 Prenons un exemple avec l'exercice n°1 : "Bienvenue à la boutique, aventurier !" :
 
 - Créé un dossier `Exercice1` dans le dossier `exercices`
-- Créé un fichier `Component.tsx` dans le dossier `Exercice1`
-- Modifie le contenu du fichier `Component.tsx` avec :
+- Créé un fichier `Bienvenue.tsx` dans le dossier `Exercice1`
+- Modifie le contenu du fichier `Bienvenue.tsx` avec :
 
 ```ts
 export default function Exercice1() {
